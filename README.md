@@ -56,9 +56,11 @@
 7.	Apply hypothesis testing and check assumptions  
    • Looking at the summary statistics, the control and Test groups seem similar, but are the two groups statistically significant? - investigate statistically.  
    • Check Normality & if Normal Distribution, check homogeneity.  
+  	      > Test for normality - Shapiro Test  
+  	      > Test for homogeneity - Levene Test  
    • Apply tests (Shapiro, Levene Test, T-Test, Welch Test, Mann Whitney U Test)  
-8.	Evaluate the results, pick the variation that performed best, and cancel the one that performed poorly.  
-9.	Recommend business decision to your customer/director/ceo etc.  
+9.	Evaluate the results, pick the variation that performed best, and cancel the one that performed poorly.  
+10.	Recommend business decision to your customer/director/ceo etc.  
 
 
 ### Approach
