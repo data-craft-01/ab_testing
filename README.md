@@ -44,11 +44,19 @@
 - Binomial/Discrete - Fisher’s exact test, Pearson’s chi-squared test
 - Continuous - One tailed	Two tailed test
 
-### A/B testing procedure
-o	Decide what to test and based on what the objective is.
-o	Create one or more variations of original web element. 
-o	Split the website traffic randomly between two variations (i.e., we randomly allocate visitors according to some probability), and finally, collect data regarding web page performance (metrics). 
-o	After some time, analyze data, pick the variation that performed best, and cancel the one that performed poorly.
+### A/B testing process
+1.	Understanding business problem & data - decide what to test and based on what the objective is ?  
+2.	Create one or more variations of original web element.   
+3.Split the website traffic randomly between two variations (i.e., we randomly allocate visitors according to some probability), and finally, collect data regarding web page performance (metrics).  
+4.	Detect and resolve problems in the data (Missing Value, Outliers, Unexpected Value)  
+5.	Look summary stats and plots – A/B groups  
+6.	Outliers treatment  
+7.	Apply hypothesis testing and check assumptions
+   • Looking at the summary statistics, the control and Test groups seem similar, but are the two groups statistically significant? - investigate statistically.
+   • Check Normality & if Normal Distribution, check homogeneity.
+   • Apply tests (Shapiro, Levene Test, T-Test, Welch Test, Mann Whitney U Test)
+8.	Evaluate the results, pick the variation that performed best, and cancel the one that performed poorly.  
+9.	Recommend business decision to your customer/director/ceo etc.
 
 
 ### Approach
