@@ -44,6 +44,8 @@
 - Binomial/Discrete - Fisher’s exact test, Pearson’s chi-squared test
 - Continuous - One tailed	Two tailed test
 
+  ![image](https://github.com/data-craft-01/ab_testing/assets/153006864/fe15ef4b-1ee4-4eaa-a2a4-d65040edfda7)
+
 ### A/B testing process
 1.	Understanding business problem & data - decide what to test and based on what the objective is ?  
 2.	Create one or more variations of original web element.   
@@ -51,12 +53,12 @@
 4.	Detect and resolve problems in the data (Missing Value, Outliers, Unexpected Value)  
 5.	Look summary stats and plots – A/B groups  
 6.	Outliers treatment  
-7.	Apply hypothesis testing and check assumptions
-   • Looking at the summary statistics, the control and Test groups seem similar, but are the two groups statistically significant? - investigate statistically.
-   • Check Normality & if Normal Distribution, check homogeneity.
-   • Apply tests (Shapiro, Levene Test, T-Test, Welch Test, Mann Whitney U Test)
+7.	Apply hypothesis testing and check assumptions  
+   • Looking at the summary statistics, the control and Test groups seem similar, but are the two groups statistically significant? - investigate statistically.  
+   • Check Normality & if Normal Distribution, check homogeneity.  
+   • Apply tests (Shapiro, Levene Test, T-Test, Welch Test, Mann Whitney U Test)  
 8.	Evaluate the results, pick the variation that performed best, and cancel the one that performed poorly.  
-9.	Recommend business decision to your customer/director/ceo etc.
+9.	Recommend business decision to your customer/director/ceo etc.  
 
 
 ### Approach
