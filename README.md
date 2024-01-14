@@ -30,7 +30,7 @@
 - Statistical significance is measured by the p-value (probability of observing a t-statistic as extreme as the one computed from the sample data, assuming the null hypothesis (no difference between groups)).
 - If the p-value is below a chosen significance level (commonly 0.05), it can be concluded that there's a statistically significant difference between the groups.
 
-5. Hypothesis Test - One tailed vs Two tailed
+5. Hypothesis Test - One tailed vs Two tailed for devising Ha
 
 | One-Tailed Test | Two-Tailed Test  |
 | ------- | --- |
@@ -45,6 +45,9 @@
 - Continuous - One tailed	Two tailed test
 
   ![image](https://github.com/data-craft-01/ab_testing/assets/153006864/fe15ef4b-1ee4-4eaa-a2a4-d65040edfda7)
+Quick references
+> Fisher’s exact test
+> Pearson’s chi-squared test
 
 ### A/B testing process
 1.	Understanding business problem & data - decide what to test and based on what the objective is ?  
@@ -54,7 +57,7 @@
 5.	Look summary stats and plots – A/B groups  
 6.	Outliers treatment  
 7.	Apply hypothesis testing and check assumptions  
-   • Looking at the summary statistics, the control and Test groups seem similar, but are the two groups statistically significant? - investigate statistically.  
+   • Looking at the summary statistics, the control and Test groups seem similar, but are the two groups **statistically significant**? - always investigate statistically.  
    • Check Normality & if Normal Distribution, check homogeneity.  
   	      > Test for normality - Shapiro Test  
   	      > Test for homogeneity - Levene Test  
