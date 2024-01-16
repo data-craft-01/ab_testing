@@ -84,22 +84,22 @@ Quick references
   - Pre-requisite  
        a. Baseline Conversion rate
           > Current conversion rate of the control version we want to test.
-          > Google Analytics - it's available in section - Reports > Life cycle > Monetization > Ecommerce purchases > Conversion =  'Items Purchased' / 'Items                Viewed' 
-          > Can have a baseline conversion rate for entire website, a single page, or a single product on site.
-          > Average e-Commerce website baseline conversion rate is in the range of 2-5%, refer to this range in case the decision is stuck on what to consider.
-       b. Minimum Detectable Effect
-          > It answers - what’s the smallest conversion difference we expect to see?  
+          > Google Analytics - it's available in section - Reports > Life cycle > Monetization > Ecommerce purchases > Conversion =  'Items Purchased' / 'Items Viewed' 
+          > Can have a baseline conversion rate for entire website, a single page, or a single product on site.  
+          > Average e-Commerce website baseline conversion rate is in the range of 2-5%, refer to this range in case the decision is stuck on what to consider.  
+       b. Minimum Detectable Effect  
+          > It answers - what’s the smallest conversion difference we expect to see?   
           > It's an speculative one to determine, as we haven't still tested any version & don't know the winner or loose yet.  
-          > Two approaches to determine MDE to start with  
-             - Use historical data - look at past test results, see how they’ve performed, and plug-in the average conversion rate for those test which should                    provide a reasonable sense of a somewhat accurate MDE.
-             - USE AN MDE OF NO MORE THAN 2-5% - according to stats expert, Ron Kohavi, an MDE of a anythingmore than about 5% is high unlikely. Tests that appear                to get lifts of 5%+ tend to be inaccurateexaggerations and can’t be trusted Therefore, you should use of MDE of no more than 5%. However, anything                 less than about 2% isn’t really worthtesting, so 2% should be the minimum threshold.
+          > Two approaches to determine MDE to start with:  
+             - Use historical data - look at past test results, see how they’ve performed, and plug-in the average conversion rate for those test which should provide a reasonable sense of a somewhat accurate                   MDE.
+             - USE AN MDE OF NO MORE THAN 2-5% - according to stats expert, Ron Kohavi, an MDE of a anythingmore than about 5% is high unlikely. Tests that appeal to get lifts of 5%+ tend to be                                  inaccurate exaggerations and can’t be trusted. Therefore, use of MDE of no more than 5%. However, anything less than about 2% isn’t really worthtesting, so 2% should be the minimum threshold.
              - Two Type of MDE - Absolute or Relative  
-             - Absolute MDE - actual raw number difference between theconversion rates of the control and variant. Using this sample size requirements appear to                  be way less, but that could be a trap. What it means is, you need to see a raw 5% conversion lift,for example 0.96% to 5.96%, which is quite                       difficult to achieve.
-             - Relative MDE: the % difference between the baseline conversion rate and the MDE of the variant. Using this the sample size requirements appear a                   lot higher, but are much more realistic because you’re only lifting the conversion rate arelative amount. For example, from 0.96% to 1.01%.
-               In general, business takeholders are used to seeing a relative percentage lift, so it’s typically best to use a relative percentage calculation and                report results this way.  
+             - Absolute MDE - actual raw number difference between theconversion rates of the control and variant. Using this sample size requirements appear to be way less, but that could be a trap. What it                    means is, you need to see a raw 5% conversion lift,for example 0.96% to 5.96%, which is quite difficult to achieve.
+             - Relative MDE: the % difference between the baseline conversion rate and the MDE of the variant. Using this the sample size requirements appear a lot higher, but are much more realistic because                    you’re only lifting the conversion rate arelative amount. For example, from 0.96% to 1.01%.
+               In general, business takeholders are used to seeing a relative percentage lift, so it’s typically best to use a relative percentage calculation and report results this way.  
 4. **General Sense Check**  
-    - In general, to run a properly-powered study, based on anaverage eCommerce conversion rate of 2-5%, with areasonable MDE also at 2-5%, the smallest sample          size required  is at least 120,146 visitors, per variant. And , the more variants you test, the more visitors you need.
-    - Trustworthy testing is really best achieved by large, enterprise-level sites with huge amounts of traffic of atleast (120,000 for version A + 120,000 for          version B) =240,000 visitors within a 2-6 week time period.  
+    - In general, to run a properly-powered study, based on anaverage eCommerce conversion rate of 2-5%, with areasonable MDE also at 2-5%, the smallest sample size required  is at least 120,146 visitors, per variant. And , the more variants you test, the more visitors you need.
+    - Trustworthy testing is really best achieved by large, enterprise-level sites with huge amounts of traffic of atleast (120,000 for version A + 120,000 for version B) =240,000 visitors within a 2-6 week time period.  
 3.Split the website traffic randomly between two variations (i.e., we randomly allocate visitors according to some probability), and finally, collect data regarding web page performance (metrics).  
 5.	Detect and resolve problems in the data (Missing Value, Outliers, Unexpected Value)  
 6.	Look summary stats and plots – A/B groups  
