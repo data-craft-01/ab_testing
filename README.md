@@ -1,6 +1,7 @@
 # A/B Testing
 
 -	A/B testing is a method of comparing two versions of a webpage or app against each other to determine which one performs better against a specific objective.
+-	A/B testing is a conversion rate optimization (CRO) technique that businesses use to boost conversions. 
 
 ### Nomenclature
 1. Test vs Control/Baseline
@@ -49,6 +50,15 @@ Quick references
 > Fisher’s exact test
 > Pearson’s chi-squared test
 
+### A/B testing scenarios
+1. Landing pages
+2. Email
+3. Pay-per-click (PPC) ads
+4. Discover how decreasing the number of form fields in the checkout process increases purchases.
+5. Discover how adding testimonials to a product page increases conversions.
+6. Discover how email CTR (click-through rate) increase when adding a video thumbnail to the email body copy.
+
+
 ### A/B testing process
 1.	Understanding business problem & data - decide what to test and based on what the objective is ?  
 2.	Create one or more variations of original web element.   
@@ -67,7 +77,30 @@ Quick references
 
 
 ### Approach
-1. Interpret descriptive statistics
-2. Perform Hypothesis Testing
-3. Z_test
-4. Logistic Regression
+1. Probability based
+2. Hypothesis Test
+3. Regression based
+
+### Best practices
+1. Only test one variable at a time (Split Testing approach).
+2. Split your groups equally and randomly.
+3. Test early and test often for the best results.
+4. Test as large a sample as you can for more accurate results.
+5. Trust the data collected, not gut instinct.
+
+
+### Deriving & interpreting results
+1. Calculate conversion rates for each variant with formula:  
+Conversion Rate = $\frac{Conversions}{Views}$ X 100
+ 
+For example, for 90 conversions and 1,000 views:  
+Conversion Rate = $\frac{90}{1000}$ X 100 = 9%
+ 
+2. Derive percentage differences between the two conversion rates as follows:
+% Difference = $\frac{(larger - smaller)}{smaller}$ X 100
+ 
+For example, if Test A converted at 9% and Test B converted at 12%:
+ % Difference = $\frac{(12 - 9)}{9}$ X 100 = 33% difference
+
+This means that **Test B converted 33% better than Test A.** 
+Generally speaking, **anything higher than a 5% difference counts as statistical significance.**
