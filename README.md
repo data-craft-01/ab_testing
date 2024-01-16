@@ -77,9 +77,10 @@ Quick references
 
 
 ### Approach
-1. Probability based
-2. Hypothesis Test
-3. Regression based
+1. % Change based
+2. Probability based
+3. Hypothesis Test
+4. Regression based
 
 ### Best practices
 1. Only test one variable at a time (Split Testing approach).
@@ -89,18 +90,18 @@ Quick references
 5. Trust the data collected, not gut instinct.
 
 
-### Deriving & interpreting results
-1. Calculate conversion rates for each variant with formula:  
-Conversion Rate = $\frac{Conversions}{Views}$ X 100
+### % Change based - Deriving & interpreting results  
+1. Calculate conversion rates for each variant with formula:   
+Conversion Rate = $\frac{Conversions}{Views}$ X 100  
  
-For example, for 90 conversions and 1,000 views:  
-Conversion Rate = $\frac{90}{1000}$ X 100 = 9%
+For example, for 90 conversions and 1,000 views:   
+Conversion Rate = $\frac{90}{1000}$ X 100 = 9%  
  
-2. Derive percentage differences between the two conversion rates as follows:
-% Difference = $\frac{(larger - smaller)}{smaller}$ X 100
+2. Derive percentage differences between the two conversion rates as follows:  
+% Difference = $\frac{(larger - smaller)}{smaller}$ X 100  
  
-For example, if Test A converted at 9% and Test B converted at 12%:
- % Difference = $\frac{(12 - 9)}{9}$ X 100 = 33% difference
+For example, if Test A converted at 9% and Test B converted at 12%:  
+ % Difference = $\frac{(12 - 9)}{9}$ X 100 = 33% difference  
 
-This means that **Test B converted 33% better than Test A.** 
-Generally speaking, **anything higher than a 5% difference counts as statistical significance.**
+This means that **Test B converted 33% better than Test A.**   
+Generally speaking, **anything higher than a 5% difference counts as statistical significance.**  
